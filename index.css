@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(222, 31, 225);
+}
+.big-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+          }
+.start{
+    width: 200px;
+    gap: 30px;
+    background: rgb(99, 193, 248);
+    box-shadow: 2px 2px 10px black;
+    position: relative;
+    cursor: pointer;
+}
+.start:hover{
+    z-index: 1;
+    bottom: 40px;
+}
+.image{
+    width: 100%;
+}
+.book{
+    text-align: center;
+    padding: 20px;
+}
+
+
